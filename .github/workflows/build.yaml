@@ -17,5 +17,5 @@ jobs:
       - name: Step 3 - Use the Upload Artifact GitHub Action
         uses: actions/upload-artifact@v2
         with: 
-          name: assets-for-download
-          path: output
+          name: assets
+          path: /home/runner/work/keycloak-event-listener-http/keycloak-event-listener-http/target/event-listener-http-jar-with-dependencies.jar
